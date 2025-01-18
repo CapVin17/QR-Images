@@ -1,5 +1,5 @@
 "use client";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar } from "@/components/ui/avatar";
 import "../../lib/fontawesome";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -45,10 +45,11 @@ export default function Second() {
         <div className="w-full max-w-[1000px] h-auto shadow-lg bg-transparent flex flex-col items-center pt-8">
           <div className="flex flex-col items-center justify-center w-full px-4">
             <div className="mt-2 mb-8">
-              <Avatar className="w-24 h-24 md:w-32 md:h-32">
-                <AvatarImage src="./Vaaklogo.jpg" alt="Vaak Logo" />
-                <AvatarFallback>VA</AvatarFallback>
-              </Avatar>
+              <img
+                src="./Vaaklogocropped.jpg"
+                alt="Vaak Logo"
+                className="w-[350px] h-[120px] rounded-xl"
+              />
             </div>
 
             <div className="text-white text-lg mb-8">Connect With Us</div>
