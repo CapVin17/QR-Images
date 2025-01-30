@@ -43,7 +43,11 @@ export default function First() {
         <div className="w-full max-w-[1000px] h-auto shadow-lg bg-transparent flex flex-col items-center pt-8">
           <div className="flex flex-col items-center justify-center w-full px-4">
             <div className="mt-2 mb-8">
-                <img src = './Vaaklogocropped.jpg' alt="Vaak Logo" className="w-[350px] h-[120px] rounded-xl" />
+              <img
+                src="./Vaaklogocropped.jpg"
+                alt="Vaak Logo"
+                className="w-[350px] h-[120px] rounded-xl"
+              />
             </div>
 
             <div className="text-white text-lg mb-8">Connect With Us</div>
@@ -79,6 +83,23 @@ export default function First() {
                   />
                   <span className="text-white ml-4 text-lg md:text-xl">
                     VAAK Website
+                  </span>
+                </a>
+              </button>
+
+              <button className="w-full max-w-[550px] h-[80px] md:h-[80px] border border-gray-300 rounded-2xl bg-transparent hover:bg-blue-600 hover:border-blue-600 hover:scale-105 transition-all duration-300 ease-in-out">
+                <a
+                  href="https://www.linkedin.com/company/vaak-associates/posts/?feedView=all"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center px-4 md:px-6 h-full"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="text-white text-2xl md:text-3xl"
+                  />
+                  <span className="text-white ml-4 text-lg md:text-xl">
+                    Follow VAAK on Linkedin
                   </span>
                 </a>
               </button>

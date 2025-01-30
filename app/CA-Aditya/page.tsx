@@ -88,6 +88,23 @@ export default function Second() {
                   </span>
                 </a>
               </button>
+
+              <button className="w-full max-w-[550px] h-[80px] md:h-[80px] border border-gray-300 rounded-2xl bg-transparent hover:bg-blue-600 hover:border-blue-600 hover:scale-105 transition-all duration-300 ease-in-out">
+                <a
+                  href="https://www.linkedin.com/company/vaak-associates/posts/?feedView=all"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center px-4 md:px-6 h-full"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="text-white text-2xl md:text-3xl"
+                  />
+                  <span className="text-white ml-4 text-lg md:text-xl">
+                    Follow VAAK on Linkedin
+                  </span>
+                </a>
+              </button>
             </div>
           </div>
         </div>
